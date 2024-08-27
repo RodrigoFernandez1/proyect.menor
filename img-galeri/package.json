@@ -1,0 +1,12 @@
+{
+  "name": "img-galeri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": "Galeria de fotos",
+  "author": "Rodrigo Fernandez",
+  "license": "ISC",
+  "description": "Una galería de imágenes para la web, con características avanzadas de visualización y organización."
+}
