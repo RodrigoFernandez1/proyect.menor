@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+/* carrusel de img al inicio */
+.ram-galeria {
+  position: relative;
+}
+
+.carousel-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 10;
+  color: white;
+}
+
+.titulo-galeria {
+  font-size: 3vw; /* Tamaño de texto relativo al ancho de la pantalla */
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.titulo-galeria-p {
+  font-size: 1.5vw; /* Tamaño de texto relativo al ancho de la pantalla */
+  font-weight: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.img-galeria {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-height: 600px;
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+  .titulo-galeria {
+    font-size: 6vw; /* Ajustar tamaño de texto en pantallas pequeñas */
+  }
+  .titulo-galeria-p {
+    font-size: 4vw; /* Ajustar tamaño de texto en pantallas pequeñas */
+  }
+}
+
+/* section de tarjetas */
+.detalles-camioneta {
+  padding: 50px;
+  background-color: #f9f9f9;
+  margin-top: 50px;
+}
+
+.card img {
+  object-fit: cover;
+  height: 150px;
+  padding: 10px;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.history-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  display: flex;
+  justify-content:space-around;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+h2,
+span {
+  color: #007bff;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+hr {
+  color: #000000;
+  padding: 0.2%;
+}

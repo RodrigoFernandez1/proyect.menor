@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+/* los selectores */
+
+/* selector universal0 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* primer selector: selector de etiquerta */
+
+body {
+    background-color: rgb(255, 73, 73);
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+header ul li {
+  margin: 10px;
+}
+
+img {
+  width: 150px;
+}
+
+h1 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  font-family: "Noto Sans Warang Citi", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(80, 78, 78);
+}
+
+a {
+    text-decoration: none;
+}
+
+/* selectores de clases */
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+  background-color: rgb(97, 181, 255);
+}
+
+.caja {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 2%;
+}
+
+.caja img {
+  padding: 1%;
+  border-radius: 50%;
+}
+
+.caja p {
+  font-size: 12px;
+}
+
+.img-prin {
+    width: 19%;
+    padding: 1%;
+}
+
+/* selectores ID (selectores de identificacion unica) */
